@@ -26,6 +26,7 @@ public class LoginActivity extends AppCompatActivity {
 
         et_name= findViewById(R.id.et_name);
         et_nickname= findViewById(R.id.et_nickname);
+
         btn_login=findViewById(R.id.btn_login);
         btn_register=findViewById(R.id.btn_register);
 

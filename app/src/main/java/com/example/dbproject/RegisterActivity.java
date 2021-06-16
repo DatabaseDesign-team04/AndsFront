@@ -20,6 +20,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private EditText et_name, et_number, et_nickname;
     private Button btn_register;
+    private String userName, PhoneNum, nickName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { //액티비디 시작시 처음으로 실행되는 생명주기
@@ -37,9 +38,9 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // EditText에 현재 입력되어있는 값을 get(가져온다)해온다.
-                String userName = et_name.getText().toString();
-                int PhoneNum = Integer.parseInt(et_number.getText().toString());
-                String nickName = et_nickname.getText().toString();
+                userName = et_name.getText().toString();
+                PhoneNum = et_number.getText().toString();
+                nickName = et_nickname.getText().toString();
 
 
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
