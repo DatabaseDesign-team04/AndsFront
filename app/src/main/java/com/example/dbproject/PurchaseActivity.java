@@ -74,7 +74,7 @@ public class PurchaseActivity extends AppCompatActivity {
         TotalPurchasePrice = TotalProductPrice + deliver;
         totalPrice.setText(TotalPurchasePrice + "원"); // 총 결제 금액
 
-        Button purchase_btn = (Button) findViewById(R.id.purchase_btn);
+        Button purchase_btn = (Button) findViewById(R.id.btn_purchase);
         purchase_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -44,7 +44,7 @@
             android:layout_width="111dp"
             android:layout_height="126dp"
             android:scaleType="fitXY"
-            android:src="@drawable/griptalk"></ImageView>
+            android:src="@drawable/cookie"></ImageView>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -71,7 +71,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="8비트 수룡이 스티커"
+                    android:text="수룡이 쿠키 세트"
                     android:textColor="#000000"
                     android:textSize="14dp" />
             </LinearLayout>
@@ -82,7 +82,7 @@
                 android:layout_width="131dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom"
-                android:text="- 가격: 2,500원"
+                android:text="- 가격: 3,500원"
                 android:textColor="#666666" />
         </LinearLayout>
     </LinearLayout>
@@ -116,7 +116,7 @@
         <TextView
             android:layout_width="398dp"
             android:layout_height="wrap_content"
-            android:text="성신여자대학교 마스코트인 수룡이 스티커 입니다. 8비트 구성으로 아날로그 하면서도 깜찍한 수룡이 스티커를 구매해보세요!
+            android:text="성신여자대학교 마스코트인 수룡이 쿠키 입니다. 따끈따끈 바삭바삭 깜찍한 수룡이 쿠키를 구매해보세요!
 "
             android:textColor="@color/black"></TextView>
 
@@ -129,7 +129,7 @@
         <TextView
             android:layout_width="398dp"
             android:layout_height="wrap_content"
-            android:text="여러분의 다이어리, 공책, 메모장 등 수룡이로 인해 특별한 모습으로 탈바꿈될 것이에요! 가격도 싸다, 싸! 단돈 2500원에 어서 빨리 수룡이를 구매하자고요~
+            android:text="배고픈 여러분의 배를 채울 수 있으면서도 귀엽기까지 한 수룡이 쿠키! 가격도 싸다, 싸! 단돈 2500원에 어서 빨리 수룡이를 구매하자고요~
 "
             android:textColor="@color/black"></TextView>
 

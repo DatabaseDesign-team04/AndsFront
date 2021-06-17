@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-// MainActivity는 상품 소개 창
+//상품 소개 창
 public class ProductActivity extends AppCompatActivity {
 
     @Override

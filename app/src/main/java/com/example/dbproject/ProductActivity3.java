@@ -24,7 +24,7 @@ public class ProductActivity3 extends AppCompatActivity {
             }
         });
 
-        // 장바구니 창을 따로 만들지 문제라서 일단 보류
+        // 장바구니 창은 일단 계획한게 아니었어서 보류
         Button cart_btn = (Button) findViewById(R.id.cart_btn);
         cart_btn.setOnClickListener(new View.OnClickListener() {
             @Override

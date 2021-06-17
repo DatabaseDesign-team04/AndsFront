@@ -27,14 +27,11 @@
             android:layout_gravity="center"
             android:text="성신여대 굿즈샵"
             android:textColor="#FFFFFF"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginTop="5dp"/>
     </LinearLayout>
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -68,7 +65,7 @@
                 android:ellipsize="end"
                 android:text="상품명 :  8비트 수룡이 스티커"
                 android:textColor="#000000"
-                android:textSize="14dp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/productPriceText"
@@ -96,7 +93,7 @@
                     android:layout_height="wrap_content"
                     android:hint="수량입력"
                     android:inputType="number"
-                    android:textSize="11dp"
+                    android:textSize="12sp"
                     android:textColor="@color/black"/>
             </LinearLayout>
         </LinearLayout>
@@ -110,7 +107,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="4dp"/>
+            android:textSize="5sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -180,7 +177,7 @@
                 android:layout_height="wrap_content"
                 android:hint="상세 주소를를 입력해주세요."
                 android:inputType="text"
-                android:textSize="15dp"
+                android:textSize="5sp"
                 android:textColor="#666666"/>
         </LinearLayout>
     </LinearLayout>
@@ -216,7 +213,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="배송비 : "
+                android:text="배송비 : 2500원"
                 android:textColor="@color/black"/>
 
             <TextView
@@ -249,7 +246,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="right">
+            android:gravity="end">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -273,7 +270,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="4dp" />
+                android:textSize="5sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -308,11 +305,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="4dp" />
+            android:textSize="12sp" />
     </LinearLayout>
 
     <Button
-        android:id="@+id/purchase_btn"
+        android:id="@+id/btn_purchase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -320,5 +317,5 @@
         android:text="결제하기"
         android:textColor="#FFFFFF"
         android:background="@color/purple_200"/>
-    </ScrollView>
 </LinearLayout>
+
