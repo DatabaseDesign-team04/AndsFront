@@ -7,8 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-//상품 소개 창
-public class ProductActivity extends AppCompatActivity {
+// MainActivity는 상품 소개 창
+public class ProductActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -34,21 +34,38 @@
     </LinearLayout>
 
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
-        android:text="주문이 완료되었습니다"
-        android:textColor="@color/black"
-        android:textSize="25dp" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="주문이 완료되었습니다"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="주문이 완료되었습니다"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="254dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="50dp"
         android:orientation="vertical">
 
         <TextView
@@ -67,8 +84,8 @@
                 android:id="@+id/productImg"
                 android:layout_width="111dp"
                 android:layout_height="126dp"
-                android:src="@drawable/sticker"
-                android:scaleType="fitXY"></ImageView>
+                android:scaleType="fitXY"
+                android:src="@drawable/sticker"></ImageView>
         </LinearLayout>
 
         <LinearLayout
@@ -80,8 +97,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
                 android:ellipsize="end"
-                android:textColor="@color/black"
-                android:text="상품명 : " />
+                android:text="상품명 : 8비트 수룡이 스티커"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/productName"
@@ -110,16 +127,17 @@
                 android:textColor="#666666" />
 
             <TextView
+                android:id="@+id/productPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/productPrice"
-                android:textColor="#666666"/>
+                android:text="2500"
+                android:textColor="#666666" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="원"
-                android:textColor="#666666"/>
+                android:textColor="#666666" />
         </LinearLayout>
 
         <LinearLayout
@@ -131,8 +149,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="주문수량 : "
-                android:textSize="12dp"
-                android:textColor="@color/black"></TextView>
+                android:textColor="@color/black"
+                android:textSize="12dp"></TextView>
 
             <TextView
                 android:id="@+id/editEa"
@@ -172,14 +190,34 @@
                 android:textColor="#000000"
                 android:text="원"/>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:text="배송지: "/>
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:text=""/>
+        </LinearLayout>
+
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp">
-
+        android:layout_marginTop="5dp"
+        >
         <Button
             android:id="@+id/shopping_btn"
             android:layout_width="wrap_content"
